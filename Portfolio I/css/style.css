@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    
+}
+body{
+    display: flexbox;
+    height: 100%;
+}
+.picname{
+    padding-top: 35px;
+}
+.author-img{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border: 4px solid#99738E;
+    border-radius: 50%;
+}
+.picname div{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.sideposition a{
+    text-decoration: none;
+    color: #F64C72;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-style: italic;
+        
+}
+#sidename a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Playfair Display", Georgia, serif;font-size: 20px;
+    letter-spacing: 2px;
+}
+.navbar{
+    width: 21.2%;
+    height: 99.8vh;
+    float: left;
+    position: fixed;
+    text-align: center;
+    background-color: #553D67;
+
+}
+.navbar div ul{
+    padding-top: 30px;
+}
+.navbar div li{
+    margin-top: 20px;
+}
+
+.collapse ul li a{
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+}
+.collapse ul li a :hover{
+    color: #F64C72;
+}
+.otherbar{
+    width: 78.9%;
+    height: 99.7vh;
+    float: right;
+    background-color: #2F2FA2;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.transparent-overlay {
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+.otherbar .home{
+    background-image: url(../images/london-min.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 99.7vh;
+    width: 99.7%;
+    opacity: 94%;
+    
+}
+.home h1{
+    font-size: 67px;
+    font-family: "Playfair Display", Georgia, serif;
+}
+.homecontent{
+    padding-top: 25vh;
+    padding-left: 5vw;
+    height: 75vh;
+    color: rgb(255, 255, 255);
+
+}
+.about{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-top: 20px;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: white;
+}
+.aboutme{
+    background-color: #2F2FA2;
+    margin: 50px;
+    height: 100vh;
+    text-align: left;
+
+}
+
+.aboutcontent p{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    line-height: 40px;
+    color: white;
+}
+.aboutcontent p a{
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #F64C72;
+}
+
+.sect{
+    margin-bottom: 14px;
+    display: block;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #746666;
+    font-weight: 800;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lower{
+    color: white;
+}
+
+.projects{
+    height: 150vh;
+    margin: 50px;
+    font-size: 24px;
+    overflow-x: hidden;
+}
+.passion{
+    color:white;
+}
+.row{
+    display: flex;
+}
+.row > div{
+    margin: 10px;
+    padding: 20px;
+}
+.projects .con{
+    height: 100%;
+    width: 100%;
+    
+}
+#hidden {
+    display: none;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    background-color: #f3e9e9;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.5;
+}
+.bx{
+    height: 40vh;
+    width: 40vw;
+    position: relative;
+    margin: 20px;
+    border: 4px solid #99738e;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.box-1{
+    background-image: url(../images/projects/projectServ.png);
+    background-size: cover;
+
+}
+.box-2{
+    
+    background-image: url(../images/projects/heartdis.jpg);
+    background-size: cover;
+}
+.box-3{
+    
+    background-image: url(../images/projects/db.jpg);
+    background-size: cover;
+}
+.box-4{
+    background-image: url(../images/projects/aug.jpg);
+    background-size: cover;
+}
+
+.skills{
+    height: 100vh;
+    width: 100%;
+    font-size: 24px;
+    margin-top: 140px;
+    padding-left: 50px;
+    overflow-x: hidden;
+    color: white;
+}
+.desc h3{
+    font-size: 29px;
+}
+.service-1{
+    width: 20vw;
+    height: 60vh;
+    border-bottom: 2px solid blue;
+    background-color: #553D67;
+    box-shadow: 24px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+.service-2{
+    width: 20vw;
+    height: 60vh;
+    border-bottom: 2px solid blue;
+    background-color: #553D67;
+    box-shadow: 24px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+.service-3{
+    width: 20vw;
+    height: 60vh;
+    border-bottom: 2px solid blue;
+    background-color: #553D67;
+    box-shadow: 24px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+
+
+
+.education{
+    height:100vh;
+    width: 90%;
+    padding-left: 60px;
+    margin-top: 140px;
+    font-size: 24px;
+    display:inline-block;
+}
+.edu-top{
+    padding-bottom: 20px;
+}
+.certif{
+    width: 93%;
+    height: 35vh;
+    margin-top: 30px;
+    background-color: #242582;
+    
+}
+
+.panel-title{
+    padding-left: 15px;
+    padding-top: 22px;
+    display: block;
+    width: 98.2%;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: "Quicksand", Arial, sans-serif;
+    background-color: #553D67;
+    color: #fff;
+    box-shadow: 1px 1px 1px 1px black;
+    border: 2px solid #553D67;
+    height: 8vh;
+    position: relative;
+    
+}
+.certif h4 a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.edu-content{
+    height: 22vh;
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px 2px;
+    border: 2px solid #553D67;
+}
+.edu-img{
+    height: 145px;
+    width: 145px;
+    position: relative;
+    border-radius: 10px;
+}
+.edu-img1{
+    height: 145px;
+    width: 145px;
+}
+.edu-text{
+    float: right;
+    position:relative;
+    margin-top: -140px;
+    margin-right: 290px;
+    color: whitesmoke;
+}
+.edu-date{
+    margin-bottom: 4px;
+    display: block;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #f3e9e9;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.edu-text a{
+    text-decoration: none;
+}
+.edu-text a b{
+    color: black;
+    font-size: 26px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.edu-text b{
+    text-decoration: none;
+    color: rgb(26, 23, 23);
+    font-size: 19px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.edu-text ul{
+    padding-left: 27px;
+    font-size: 17px;
+}
+
+
+
+.experience{
+    height:100vh;
+    width: 100%;
+    font-size: 24px;
+    margin-top: 90px;
+    padding-left: 20px;
+    margin-bottom: 240px;
+    
+}
+.expe-top{
+    padding-left: 35px;
+}
+.expe-row{
+    display: flex;
+    text-align: justify;
+}
+.expri-box{
+    height: 106vh;
+    width: 40vw;
+    margin: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500px;
+}
+.expri-position{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.contact{
+    height: 80vh;
+    font-size: 24px;
+}
+.contact-top{
+    margin: 50px;
+    padding-bottom: 100px;
+    padding-left: 25px;
+}
+#contact { 
+    padding: 30px 15px;
+    margin-bottom: 0px;
+    background: #3498db;
+    text-align: center;
+}
+    #contact h2 {
+    margin: 0 0 15px 0;
+    color: #fff;
+    font-weight: 500;
+}
+#contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+#contact-form input,
+#contact-form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 10px;
+    background: #1d6fa5;
+    color: #fff;
+    transition: 0.5s ease all;
+}
+#contact-form input::-webkit-input-placeholder,
+#contact-form textarea::-webkit-input-placeholder {
+    color: #fff;
+}
+#contact-form input:-moz-placeholder,
+#contact-form textarea:-moz-placeholder {
+    color: #fff;
+    opacity: 1;
+}
+#contact-form input::-moz-placeholder,
+#contact-form textarea::-moz-placeholder {
+    color: #fff;
+    opacity: 1;
+}
+#contact-form input:-ms-input-placeholder,
+#contact-form textarea:-ms-input-placeholder {
+    color: #fff;
+}
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    background: #16527a;
+}
+#contact-form textarea {
+    height: 100px;
+    resize: none;
+}
+#contact-form button {
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-radius: 4px;
+    padding: 15px 10px;
+    border: none;
+    margin-left: 8px;
+    color: #3498db;
+    font-weight: 700;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+#contact-form button:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+
+
